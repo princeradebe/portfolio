@@ -11,7 +11,7 @@ const Footer = () => {
                 I am a front end developer & UI/UX designer
                 experienced in react, tailwind & figma.
             </p>
-            <ul className='text-brand-light-blue font-semibold text-xl'>
+            <ul className='font-semibold text-xl text-transparent bg-clip-text bg-gradient-to-r to-brand-light-blue from-brand-magenta'>
                 <li>Projects</li>
                 <li>Contact</li>
                 <li>Resume / CV</li>
