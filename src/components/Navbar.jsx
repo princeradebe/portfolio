@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from './logo/Logo'
 
 import { Squash as Hamburger } from 'hamburger-react'
 import Button from './buttons/Button'
@@ -8,12 +9,7 @@ const Navbar = () => {
 
     return (
         <nav className='flex justify-between items-center'>
-            <div className='text-2xl text-white font-semibold'>
-                Prince
-                <span className='text-light-blue text-lg'>
-                    .
-                </span>
-            </div>
+            <Logo />
             {/* <Button className='hidden' /> */}
             <div className='md:hidden'>
                 <Hamburger toggled={open} toggle={setOpen} color='white' alt='menu' />
