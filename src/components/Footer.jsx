@@ -3,7 +3,7 @@ import Logo from './logo/Logo'
 
 const Footer = () => {
     return (
-        <div className='bg-blue-dark'>
+        <div className='bg-brand-blue-dark'>
             <Logo />
             <p className='text-white text-sm'>
                 Just so you don’t forget who I am,
@@ -11,7 +11,7 @@ const Footer = () => {
                 I am a front end developer & UI/UX designer
                 experienced in react, tailwind & figma.
             </p>
-            <ul className='text-light-blue font-semibold text-xl'>
+            <ul className='text-brand-light-blue font-semibold text-xl'>
                 <li>Projects</li>
                 <li>Contact</li>
                 <li>Resume / CV</li>

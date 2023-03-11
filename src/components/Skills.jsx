@@ -38,7 +38,7 @@ const Skills = () => {
     ]
     return (
         <>
-            <h2 className='text-3xl text-transparent font-semibold bg-clip-text bg-gradient-to-r from-brand-light-blue to-brand-magenta'>Skills</h2>
+            <h2 className='text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-brand-light-blue to-brand-magenta'>Skills</h2>
 
             {
                 skills.map(({ id, skill, years }) => (
