@@ -29,7 +29,7 @@ const Hero = () => {
                 </h1>
             </div>
             <h3 className='mt-12 px-4 text-white'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic libero possimus aut pariatur necessitatibus eum. Dolorum, voluptatem? Quasi provident facere ad ab mollitia, dolores quam asperiores cum natus quas dolor.
+                I am a passionate and experienced front-end developer with a knack for creating visually appealing and user-friendly websites. Whether you need a simple landing page or a complex web application, I have the skills and expertise to bring your vision to life.
             </h3>
             <div className='flex px-4 text-2xl text-brand-light-blue gap-8 mt-6'>
                 <FaLinkedinIn />

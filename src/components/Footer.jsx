@@ -6,9 +6,8 @@ const Footer = () => {
         <div className='bg-brand-blue-dark px-4'>
             <hr className='h-[0.2px] border-0 bg-brand-light-blue opacity-40 mb-8' />
             <Logo />
-            <p className='text-white text-sm'>
-                Just so you don’t forget who I am,
-
+            <p className='text-white text-sm mt-2'>
+                Just so you don’t forget who I am,<br />
                 I am a Front End Developer & UI/UX designer
                 experienced in React.js, Tailwind & Figma.
             </p>
@@ -18,7 +17,7 @@ const Footer = () => {
                 <li>Resume / CV</li>
             </ul>
 
-            <p className='text-brand-light-blue text-xs text-center mt-8 pb-4'> &copy;Copyright {new Date().getFullYear()}, Prince Radebe</p>
+            <p className='text-brand-light-blue text-xs text-center mt-8 pb-4'> &copy;Copyright {new Date().getFullYear()}, Prince Radebe.</p>
         </div>
     )
 }
