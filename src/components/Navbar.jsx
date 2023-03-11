@@ -10,7 +10,9 @@ const Navbar = () => {
     return (
         <nav className='flex justify-between items-center px-4'>
             <Logo />
-            {/* <Button className='hidden' /> */}
+            <div className='hidden md:block'>
+                <Button className='hidden' />
+            </div>
             <div className='md:hidden'>
                 <Hamburger toggled={open} toggle={setOpen} color='white' alt='menu' />
             </div>
