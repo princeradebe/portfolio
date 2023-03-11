@@ -22,11 +22,16 @@ export const skills = [
     },
     {
         id: 5,
-        skill: 'Tailwind CSS',
+        skill: 'Python',
         years: '2 Years Experience'
     },
     {
         id: 6,
+        skill: 'Tailwind CSS',
+        years: '2 Years Experience'
+    },
+    {
+        id: 7,
         skill: 'Figma',
         years: '3 Years Experience'
     },
