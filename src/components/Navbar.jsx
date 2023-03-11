@@ -8,7 +8,7 @@ const Navbar = () => {
     const [open, setOpen] = React.useState(false)
 
     return (
-        <nav className='flex justify-between items-center'>
+        <nav className='flex justify-between items-center px-4'>
             <Logo />
             {/* <Button className='hidden' /> */}
             <div className='md:hidden'>

@@ -6,7 +6,7 @@ import SmallSquares from './hero/SmallSquares'
 const Hero = () => {
     return (
         <>
-            <div className=' mt-24'>
+            <div className='mt-24 px-4'>
                 <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-brand-light-blue from-brand-magenta '>
                     Hi, <span className='text-white'>I'm Prince</span>
                     <br />
@@ -28,10 +28,10 @@ const Hero = () => {
                     <p className='absolute right-[36%] bottom-[-30px] font-normal text-sm px-2 rounded-sm bg-brand-light-blue text-brand-blue'>1080 x 740</p>
                 </h1>
             </div>
-            <h3 className='mt-12 text-white'>
+            <h3 className='mt-12 px-4 text-white'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic libero possimus aut pariatur necessitatibus eum. Dolorum, voluptatem? Quasi provident facere ad ab mollitia, dolores quam asperiores cum natus quas dolor.
             </h3>
-            <div className='flex text-2xl text-brand-light-blue gap-8 mt-6'>
+            <div className='flex px-4 text-2xl text-brand-light-blue gap-8 mt-6'>
                 <FaLinkedinIn />
                 <FaGithub />
                 <FaBehanceSquare />
