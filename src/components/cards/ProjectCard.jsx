@@ -4,28 +4,26 @@ import { TechStack } from '../../data'
 const ProjectCard = () => {
 
     return (
-        <div className='flex flex-col items-center'>
-
-            <div>
-                {
-                    TechStack.map((item, index) => (
-                        <>
-                            <div className='w-[90%] h-72 bg-white'>
+        <div className='flex flex-col items-start'>
+            {
+                TechStack.map((item, index) => (
+                    <React.Fragment key={index}>
+                        <div className='w-[100%] h-72 bg-white flex flex-col justify-end p-4'>
+                            <h2 className='font-semibold'>{item.project}</h2>
+                        </div>
+                        <div className='flex flex-col items-start'>
+                            <h3 className='text-xl mt-4 text-white font-medium'>Tech Stack</h3>
+                            <div key={index} className='flex gap-2'>
+                                {
+                                    item.name.map((name, index) => (
+                                        <p key={index} className='text-brand-magenta'>{name} <span className='p-2 text-brand-light-blue'>| </span> </p>
+                                    ))
+                                }
                             </div>
-                            <div className='flex flex-col items-start'>
-                                <h3 className='text-lg text-white'>Tech Stack</h3>
-                                <div key={index} className='flex'>
-                                    {
-                                        item.name.map((name, index) => (
-                                            <p key={index} className='text-white'>{name} | </p>
-                                        ))
-                                    }
-                                </div>
-                            </div>
-                        </>
-                    ))
-                }
-            </div>
+                        </div>
+                    </React.Fragment>
+                ))
+            }
         </div>
     )
 }
