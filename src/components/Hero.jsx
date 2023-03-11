@@ -16,7 +16,7 @@ const Hero = () => {
                     & UI/UX Designer
                 </h1>
             </div>
-            <div className='flex text-2xl text-light-blue gap-8 mt-6'>
+            <div className='flex text-2xl text-brand-light-blue gap-8 mt-6'>
                 <FaLinkedinIn />
                 <FaGithub />
                 <FaBehanceSquare />

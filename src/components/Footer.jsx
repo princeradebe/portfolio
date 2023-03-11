@@ -16,9 +16,9 @@ const Footer = () => {
                 <li>Contact</li>
                 <li>Resume / CV</li>
             </ul>
-            <hr className='h-[0.2px] border-0 bg-light-blue opacity-40' />
+            <hr className='h-[0.2px] border-0 bg-brand-light-blue opacity-40' />
 
-            <p className='text-light-blue text-xs text-center mt-2'> &copy;Copyright {new Date().getFullYear()}, Prince Radebe</p>
+            <p className='text-brand-light-blue text-xs text-center mt-2'> &copy;Copyright {new Date().getFullYear()}, Prince Radebe</p>
         </div>
     )
 }

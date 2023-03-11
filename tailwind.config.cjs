@@ -9,14 +9,13 @@ module.exports = {
       //add clash display font
       display: ["Clash Display", "sans-serif"],
     },
-    colors: {
-      "white": "#FFFFFF",
-      "blue": "#190E55",
-      "blue-dark": "#0B0046",
-      "light-blue": "#90D6F7",
-      "purple": "#9D78FD",
-    },
     extend: {
+      colors: {
+        "brand-blue": "#190E55",
+        "brand-blue-dark": "#0B0046",
+        "brand-light-blue": "#90D6F7",
+        "brand-magenta": "#9D78FD",
+      },
     },
   },
   plugins: [],
