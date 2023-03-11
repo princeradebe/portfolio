@@ -41,10 +41,43 @@ export const skills = [
 
 export const TechStack = [
     {
-        project: 'Portfolio',
+        project: 'Avaka Website',
+        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
         name: [
             'React',
             'Next.js',
+            'TailwindCSS',
+        ]
+    },
+    {
+        project: 'Bluelwandle Website',
+        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
+        name: [
+            'React',
+            'Next.js',
+            'TailwindCSS',
+        ]
+    },
+    {
+        project: 'Grozara Landing Page',
+        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
+        name: [
+            'React',
+            'TailwindCSS',
+        ]
+    },
+    {
+        project: 'ProSuite Landing Page',
+        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
+        name: [
+            'Figma',
+        ]
+    },
+    {
+        project: 'Portfolio Website',
+        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
+        name: [
+            'React',
             'TailwindCSS',
         ]
     },
