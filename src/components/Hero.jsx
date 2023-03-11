@@ -7,8 +7,8 @@ const Hero = () => {
     return (
         <>
             <div>
-                <h1 className='text-4xl font-bold text-white'>
-                    Hi, I'm Prince
+                <h1 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-brand-light-blue from-brand-magenta '>
+                    Hi, <span className='text-white'>I'm Prince</span>
                     <br />
                     Front End
                     <br />
@@ -20,9 +20,9 @@ const Hero = () => {
                     <SmallSquares yPosition={'top'} xPosition={'left'} />
                     <SmallSquares yPosition={'bottom'} xPosition={'right'} />
                     <SmallSquares yPosition={'bottom'} xPosition={'left'} />
-                    <div className='absolute top-[-38px] right-[-38px]'>
+                    {/* <div className='absolute top-[-38px] right-[-38px]'>
                         <ImPen color='#9FD4F3' />
-                    </div>
+                    </div> */}
                     <div class="absolute border-b-[0.5px] border-dashed border-brand-light-blue h-8 transform rotate-90"></div>
                 </h1>
             </div>

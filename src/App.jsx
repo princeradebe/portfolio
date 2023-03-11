@@ -11,7 +11,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className='container' >
+    <div className='px-4 pt-4 container mx-auto' >
       <Navbar />
       <Hero />
       <Skills />
