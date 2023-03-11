@@ -6,7 +6,7 @@ import SmallSquares from './hero/SmallSquares'
 const Hero = () => {
     return (
         <>
-            <div className='mt-12'>
+            <div className='mt-24'>
                 <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-brand-light-blue from-brand-magenta '>
                     Hi, <span className='text-white'>I'm Prince</span>
                     <br />
@@ -16,11 +16,11 @@ const Hero = () => {
                 </h1>
                 <h1 className='relative mt-2 pl-2 text-3xl font-bold text-white border-brand-light-blue border-[1px] w-10/12'>
                     & UI/UX Designer
-                    <SmallSquares yPosition={'top'} xPosition={'right'} />
-                    <SmallSquares yPosition={'top'} xPosition={'left'} />
-                    <SmallSquares yPosition={'bottom'} xPosition={'right'} />
-                    <SmallSquares yPosition={'bottom'} xPosition={'left'} />
-                    <div className='absolute top-[-38px] right-[-38px]'>
+                    <SmallSquares yPosition={'top-[-4px]'} xPosition={'right-[-4px]'} />
+                    <SmallSquares yPosition={'top-[-4px]'} xPosition={'left-[-4px]'} />
+                    <SmallSquares yPosition={'bottom-[-4px]'} xPosition={'right-[-4px]'} />
+                    <SmallSquares yPosition={'bottom-[-4px]'} xPosition={'left-[-4px]'} />
+                    <div className='absolute top-[-34px] right-[-34px]'>
                         <ImPen color='#9FD4F3' />
                     </div>
                     <div class="absolute border-b-[0.5px] border-dashed border-brand-light-blue h-8 transform rotate-90"></div>
