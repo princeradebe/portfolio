@@ -81,4 +81,14 @@ export const TechStack = [
             'TailwindCSS',
         ]
     },
+    {
+        project: 'Premium Website',
+        description: 'Premium Beats needed a website to share thier mixes.',
+        name: [
+            'PHP',
+            'HTML',
+            'CSS',
+            'JavaScript',
+        ]
+    },
 ]
