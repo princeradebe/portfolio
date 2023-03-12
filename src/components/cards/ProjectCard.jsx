@@ -4,7 +4,7 @@ import { TechStack } from '../../data'
 const ProjectCard = () => {
 
     return (
-        <div className='flex flex-col items-start'>
+        <div className='flex flex-col md:flex-row items-start'>
             {
                 TechStack.map((item, index) => (
                     <React.Fragment key={index}>
