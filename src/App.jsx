@@ -11,7 +11,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className='pt-4 md:pt-8  mx-auto' >
+    <div className='pt-4 md:pt-8 mx-auto' >
       <Navbar />
       <Hero />
       <Skills />
