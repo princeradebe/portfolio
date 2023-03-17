@@ -1,2 +1,2 @@
 # portfolio
-My Front End Development and UI/UX Desing Portfolio
+My Front End Development and UI/UX Design Portfolio
