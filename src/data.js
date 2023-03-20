@@ -42,48 +42,51 @@ export const skills = [
 export const TechStack = [
     {
         project: 'Avaka Website',
-        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
+        description: 'Avaka is an Auditing Firm. I built it using Next.js and TailwindCSS. I also designed the website using Figma.',
         name: [
-            'React',
+            'React.js',
             'Next.js',
             'TailwindCSS',
         ]
     },
     {
         project: 'Bluelwandle Website',
-        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
+        description: 'I built the BlueLwandle website using React.js and TailwindCSS. The design was done using Figma.',
         name: [
-            'React',
-            'Next.js',
+            'React.js',
             'TailwindCSS',
-        ]
-    },
-    {
-        project: 'Grozara Landing Page',
-        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
-        name: [
-            'React',
-            'TailwindCSS',
-        ]
-    },
-    {
-        project: 'ProSuite Landing Page',
-        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
-        name: [
             'Figma',
         ]
     },
     {
+        project: 'Grozara Landing Page',
+        description: 'Grozara is a smart shopping list App. I built it using React.js and TailwindCSS. The design was done using Figma.',
+        name: [
+            'React.js',
+            'TailwindCSS',
+            'Figma',
+        ]
+    },
+    {
+        project: 'ProSuite Landing Page',
+        description: 'I designed the ProSuite landing page using Figma. I also built it using Vue.js and TailwindCSS.',
+        name: [
+            'Figma',
+            'Vue.js',
+        ]
+    },
+    {
         project: 'Portfolio Website',
-        description: 'This is my portfolio website. I built it using Next.js and TailwindCSS.',
+        description: 'This is my portfolio website. I built it using React.js and TailwindCSS.',
         name: [
             'React',
             'TailwindCSS',
+            'Figma',
         ]
     },
     {
         project: 'Premium Website',
-        description: 'Premium Beats needed a website to share thier mixes.',
+        description: 'Premium Beats needed a website to share thier mixes. the website is designed using HTML, CSS, PHP and Javascript.',
         name: [
             'PHP',
             'HTML',
