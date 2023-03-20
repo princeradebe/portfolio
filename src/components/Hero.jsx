@@ -32,9 +32,15 @@ const Hero = () => {
                 I am a passionate and experienced <span className='font-bold text-transparent bg-clip-text bg-gradient-to-r to-[#E1586F] from-[#F1A045]'>front-end developer</span> with a knack for creating visually appealing and user-friendly websites. Whether you need a simple landing page or a complex web application, I have the skills and expertise to bring your vision to life.
             </h3>
             <div className='flex px-4 md:px-20 text-2xl md:text-4xl text-brand-light-blue gap-8 mt-6'>
-                <FaLinkedinIn />
-                <FaGithub />
-                <FaBehanceSquare />
+                <a href='https://www.linkedin.com/in/princeradebe/' target='_blank'>
+                    <FaLinkedinIn />
+                </a>
+                <a href='https://github.com/princeradebe' target='_blank'>
+                    <FaGithub />
+                </a>
+                <a href='https://www.behance.net/princeradebe' target='_blank'>
+                    <FaBehanceSquare />
+                </a>
             </div>
         </>
     )
