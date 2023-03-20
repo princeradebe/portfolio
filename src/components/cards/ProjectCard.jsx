@@ -10,9 +10,11 @@ const ProjectCard = () => {
                 TechStack.map((item, index) => (
                     <div key={index}>
                         <a href={item.link} target='_blank'>
-                            <div className={`w-[100%] h-72 md:h-[600px]  flex flex-col justify-end p-4 ${item.background} bg-cover`}>
-                                <h2 className='text-xl md:text-2xl font-semibold'>{item.project}</h2>
-                                <p>{item.description}</p>
+                            <div className={`w-[100%] h-72 md:h-[600px]  flex flex-col justify-end ${item.background} bg-cover hover:scale-[1.01] transition-all duration-500`}>
+                                <div className='bg-white bg-opacity-90 p-4 text-brand-blue-dark'>
+                                    <h2 className='text-xl md:text-2xl font-semibold'>{item.project}</h2>
+                                    <p>{item.description}</p>
+                                </div>
                             </div>
                         </a>
                         <div className='flex flex-col items-start mb-16'>
