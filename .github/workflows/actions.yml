@@ -27,4 +27,4 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         local-dir: ./dist/
-        server-dir: /public_html/princeradebe.co.za/
+        server-dir: /home/princooq/public_html/
