@@ -22,13 +22,13 @@ const Skills = () => {
             }
             <h2 className='text-brand-light-blue px-4 md:px-20 font-semibold md:text-4xl mt-6 md:mt-12 mb-4'>Other Tools</h2>
             <div className='flex justify-between px-4 md:px-20 text-3xl md:text-6xl text-brand-magenta'>
-                <SiNextdotjs title='Next.js' />
-                <SiFlutter title='Flutter' />
-                <SiAdobexd title='Adobe XD' />
-                <SiAmazonaws title='Amazon Web Services' />
-                <SiBootstrap title='Boostrap 5' />
-                <SiDocker title='Docker' />
-                <SiMysql title='MySQL' />
+                <SiNextdotjs title='Next.js' className='hover:text-brand-light-blue' />
+                <SiFlutter title='Flutter' className='hover:text-brand-light-blue' />
+                <SiAdobexd title='Adobe XD' className='hover:text-brand-light-blue' />
+                <SiAmazonaws title='Amazon Web Services' className='hover:text-brand-light-blue' />
+                <SiBootstrap title='Boostrap 5' className='hover:text-brand-light-blue' />
+                <SiDocker title='Docker' className='hover:text-brand-light-blue' />
+                <SiMysql title='MySQL' className='hover:text-brand-light-blue' />
             </div>
         </>
     )
