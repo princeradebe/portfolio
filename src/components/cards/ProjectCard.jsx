@@ -7,7 +7,7 @@ const ProjectCard = () => {
         <div className='flex flex-col md:grid md:grid-cols-2 md:gap-12 items-start'>
             {
                 TechStack.map((item, index) => (
-                    <div>
+                    <div key={index}>
                         <div className='w-[100%] h-72 md:h-[600px] bg-white flex flex-col justify-end p-4'>
                             <h2 className='text-xl md:text-2xl font-semibold'>{item.project}</h2>
                             <p>{item.description}</p>
