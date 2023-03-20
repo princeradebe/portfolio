@@ -14,7 +14,7 @@ const Hero = () => {
                     <br />
                     Developer
                 </h1>
-                <h1 className='relative mt-2 pl-2 md:pl-4 md:py-2 text-3xl md:text-9xl font-bold md:font-semibold text-white border-brand-light-blue border-[1px] md:border-2 w-10/12'>
+                <h1 className='relative mt-2 pl-2 md:pl-4 md:py-2 text-3xl md:text-7xl lg:text-9xl font-bold md:font-semibold text-white border-brand-light-blue border-[1px] md:border-2 w-10/12'>
                     & UI/UX Designer
                     <SmallSquares yPosition={'top-[-4px]'} xPosition={'right-[-4px]'} />
                     <SmallSquares yPosition={'top-[-4px]'} xPosition={'left-[-4px]'} />
