@@ -81,6 +81,7 @@ export const TechStack = [
         name: [
             'Figma',
             'Vue.js',
+            'TaiwindCSS',
         ]
     },
     {
