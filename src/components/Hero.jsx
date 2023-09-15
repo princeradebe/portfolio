@@ -1,9 +1,28 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import { FaLinkedinIn, FaGithub, FaBehanceSquare } from 'react-icons/fa'
 import { ImPen } from 'react-icons/im'
 import SmallSquares from './hero/SmallSquares'
 
 const Hero = () => {
+    const [screenSize, setScreenSize] = useState(getCurrentDimension());
+
+    function getCurrentDimension() {
+        return {
+            width: window.innerWidth,
+            height: window.innerHeight
+        }
+    }
+
+    useEffect(() => {
+        const updateDimension = () => {
+            setScreenSize(getCurrentDimension())
+        }
+        window.addEventListener('resize', updateDimension);
+        return (() => {
+            window.removeEventListener('resize', updateDimension);
+        })
+    }, [screenSize])
+
     return (
         <>
             <div className='mt-24 px-4 md:px-20'>
@@ -25,7 +44,7 @@ const Hero = () => {
                     </div>
                     <div className="absolute border-r-[0.5px] md:border-r-2 -z-50 top-[-400px] md:top-[-800px] right-[50%] border-dashed border-brand-light-blue h-[400px] md:h-[800px] opacity-50"></div>
                     <div className="absolute border-b-[0.5px] md:border-b-2 top-[50%] left-[-40px] md:left-[-80px] border-dashed border-brand-light-blue w-[40px] md:w-[80px] opacity-50"></div>
-                    <p className='absolute right-[36%] md:right-[45%] bottom-[-30px] font-normal text-sm px-2 rounded-sm bg-brand-light-blue text-brand-blue'>1080 x 740</p>
+                    <p className='absolute right-[36%] md:right-[45%] bottom-[-30px] font-normal text-sm px-2 rounded-sm bg-brand-light-blue text-brand-blue'>{screenSize.width} x {screenSize.height}</p>
                 </h1>
             </div>
             <h3 className='mt-12 px-4 md:px-20 text-white md:text-3xl'>
