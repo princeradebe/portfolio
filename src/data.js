@@ -49,6 +49,7 @@ export const TechStack = [
             'React.js',
             'Next.js',
             'TailwindCSS',
+            'Figma',
         ]
     },
     {
