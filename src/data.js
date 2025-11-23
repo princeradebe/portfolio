@@ -3,37 +3,37 @@ export const skills = [
     {
         id: 1,
         skill: 'HTML',
-        years: '3 Years Experience'
+        years: '5 Years Experience'
     },
     {
         id: 2,
         skill: 'CSS',
-        years: '3 Years Experience'
+        years: '5 Years Experience'
     },
     {
         id: 3,
-        skill: 'JavaScript',
-        years: '3 Years Experience'
+        skill: 'JavaScript / TypeScript',
+        years: '5 Years Experience'
     },
     {
         id: 4,
-        skill: 'React',
-        years: '2 Years Experience'
+        skill: 'React / NextJS',
+        years: '4 Years Experience'
     },
     {
         id: 5,
         skill: 'Python',
-        years: '2 Years Experience'
+        years: '4 Years Experience'
     },
     {
         id: 6,
         skill: 'Tailwind CSS',
-        years: '2 Years Experience'
+        years: '4 Years Experience'
     },
     {
         id: 7,
         skill: 'Figma',
-        years: '3 Years Experience'
+        years: '5 Years Experience'
     },
 
 ]
