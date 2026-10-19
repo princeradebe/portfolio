@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from './logo/Logo'
-import Resume from '../assets/Prince_Radebe_CV_2023.pdf'
+import Resume from '../assets/Prince_Radebe_CV.pdf'
 
 const Footer = () => {
     return (
@@ -12,14 +12,14 @@ const Footer = () => {
                         <Logo />
                         <p className='text-white text-sm mt-2'>
                             Just so you don’t forget who I am,<br />
-                            I am a Front End Developer & UI/UX designer
-                            experienced in React.js, Tailwind & Figma.
+                            I am a Senior Web Developer & Technical Director
+                            building with Next.js, Laravel, Supabase & SwiftUI.
                         </p>
                     </div>
                     <ul className='flex flex-col md:flex-row md:self gap-4 font-semibold mt-8 text-xl text-transparent bg-clip-text bg-gradient-to-r to-brand-light-blue from-brand-magenta'>
                         <li className='hover:text-brand-light-blue cursor-pointer'>Projects</li>
                         <li className='hover:text-brand-light-blue cursor-pointer'>Contact</li>
-                        <a href={Resume} download={'Prince_Radebe_CV_2023.pdf'}><li className='hover:text-brand-light-blue cursor-pointer'>Resume / CV</li></a>
+                        <a href={Resume} download={'Prince_Radebe_CV.pdf'}><li className='hover:text-brand-light-blue cursor-pointer'>Resume / CV</li></a>
                     </ul>
                 </div>
                 <p className='text-brand-light-blue text-xs text-center mt-8 pb-4'> &copy;Copyright {new Date().getFullYear()}, Prince Radebe.</p>
